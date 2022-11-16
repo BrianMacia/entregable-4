@@ -34,7 +34,7 @@
 
 .userList {
   width: 40rem;
-  background: rgb(149, 76, 205);
+  background: rgba(15, 214, 148, 0.459);
   padding: 2rem 2.5rem;
 }
 
@@ -42,10 +42,14 @@
   background: none;
   border: none;
   padding: 1rem;  
+  border-radius: 10%;
 }
 
 .newuser {
-  padding-top: 2rem;
+  padding-top: 15rem;
+  color: hsl(160, 54%, 57%);
+  font-size: 2.5rem;
+  
 }
 
 .usersControl{
@@ -58,28 +62,29 @@
 
 .data{
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   margin: 1rem;  
  }
 
 .one{
-  width: 21.5rem; 
+  width: 22rem; 
 }
 
 .one1{
   height: 1.5rem;
   border-radius: 10%;
   border: none;
-  background: rgb(246, 245, 241);
+  background: rgba(216, 215, 210, 0.397);
   margin-left: 5px;
 }
 
 .buttonFile{
-  width: 100%; 
+  margin-left: 11.5rem;
+  width: 20%; 
   height: 2rem ;
-  background: rgb(26, 127, 26);
-  border: none;
-  border-radius: 10%;
+  border-color:hsl(160, 54%, 57%);
+  background: hsla(160, 80%, 45%, 0.39)
+  
 }
 
 

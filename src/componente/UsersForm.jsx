@@ -87,8 +87,10 @@ const UsersForm = ({ getUsers, userselected, deselectusers }) => {
             <input className="one one1" {...register("email")}  placeholder="Email" type="email" id="email" />
           </div>
         </div>
-
-        <button className="buttonFile">upload</button>
+        <div>
+          <button className="buttonFile">upload</button>
+        </div>
+        
 
       </form>
 

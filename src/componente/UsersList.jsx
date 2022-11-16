@@ -8,10 +8,10 @@ const usersList = ({ usersList, selectUser, deleteUsers }) => {
           <li className="usersData" key={user.id}>
 
             <div className="fisrtUser">
-              <h3>{user.first_name} {user.last_name}</h3>
-              <div>Password: {user.password}</div>
-              <div>Birthday: {user.birthday}</div>
-              <div>Email: {user.email} </div>
+              <h3><i class="fa-solid fa-user"></i> Name: {user.first_name} {user.last_name}</h3>
+              <div><i class="fa-solid fa-lock"></i> Password: {user.password}</div>
+              <div><i class="fa-solid fa-cake-candles"></i> Date of Birth: {user.birthday}</div>
+              <div><i class="fa-solid fa-envelope"></i> Email: {user.email} </div>
             </div>
 
             <div className="twoBoton">

@@ -67,19 +67,3 @@ export default App;
 
 
 
-//   
-
-
-
-
-//   retur   
-
-//   <div className="App">
-//   <UsersList usersList ={usersList} 
-//              selectUser ={selectUser}  
-//   /> 
-//   <UsersForm getUsers ={getUsers}
-//              select ={select} 
-//              deselectusers = {deselectusers}
-//   />
-// </div>
